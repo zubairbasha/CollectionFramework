@@ -45,7 +45,11 @@ public class ArrayListPractice {
 		words.forEach(a->System.out.println(a));
 		itr=words.iterator();
 		//itr.forEachRemaining(a->System.out.println(a));
+		ArrayList<String> words2=new ArrayList<>();
+		System.out.println(words2.isEmpty());
+		
 	}
 	
 }
+
 
