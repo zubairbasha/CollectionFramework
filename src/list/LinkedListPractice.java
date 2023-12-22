@@ -3,6 +3,7 @@ package list;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.List;
 
 public class LinkedListPractice {
 
@@ -37,10 +38,12 @@ public class LinkedListPractice {
 		words.push("Fareed");
 		System.out.println(words);
 		words.pop();
-		System.out.println(words);
+		words.add(null);
 		System.out.println(words.indexOf("Zubair"));
 		words.clear();
 		System.out.println(words);
+
+		
 		
 	}
 }
