@@ -3,7 +3,6 @@ package map;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 public class HashMapPractice {
 	public static void main(String[] args) {
@@ -55,6 +54,13 @@ public class HashMapPractice {
 		Book b4=b1;
 		System.out.println(b4.hashCode());
 		System.out.println(b1.hashCode());
+		/*Difference between HashMap and LinkedHashMap
+		 * HashMap doesnot follow insertion order whereas LinkedHashMap
+		 * Follows Insertion Order. 
+		 * HashMap and LinkedHashMap has Key, Value Pair
+		 * HashMap has Better Performance and LinkedHashMap is slow performance as it used doubly LinkedList
+		 * It we want the Insertion order go for LinkedHashMap or else go for HashMap
+		 * */
 	}
 }
 class Book{
