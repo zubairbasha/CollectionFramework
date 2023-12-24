@@ -1,6 +1,9 @@
 package map;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Hashtable;
+import java.util.List;
 
 public class HashTablePractice {
 	public static void main(String[] args) {
@@ -15,6 +18,7 @@ public class HashTablePractice {
 		System.out.println(hashTable.getOrDefault(100, "Not found"));
 		//getOrDefault method is used to find whether the element is found or not or else return the default value
 		
+	
 	}
 
 	
